@@ -1,5 +1,5 @@
 # cs2 settings
 ## startup flags
 ```
-+exec autoexec.cfg -noreflex -high -nojoy -mat_queue_mode 2 +r_dynamic 0 -threads 9 -forcenovsync +refresh 144 -allow_third_party_software
++exec autoexec.cfg -noreflex -threads 9 -allow_third_party_software +fps_max 0 -forcenovsync -high -softparticlesdefaultoff +mat_disable_fancy_blending 1 +r_dynamic 0
 ```
