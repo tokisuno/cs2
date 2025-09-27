@@ -3,14 +3,14 @@
 ```
 +exec autoexec.cfg -threads 9 -allow_third_party_software +fps_max 240 -high -nojoy -noreflex
 ```
-
-## overview
+## mappings 
 ### general remaps
 - normal wasd movement (no desubtick)
 - 1, 2, 3: primary, secondary, and knife
 - jump: mwheeldown
+- slot3: mwheelup (when awping)
 - space: crouch
-- ctrl: push to talk
+- mouse5: push to talk (top mouse button, some mice report it differently idk)
 ### nade remaps
 - q: flash
 - x: smoke
@@ -18,6 +18,7 @@
 - v: fire
 - 5: cycle grenades (to throw out decoy)
 ## video settings
-- 1920x1080/1280x1024/1024x768
+- 1920x1080/1280x960/1680x1050
 - lowest settings + 2x msaa
-- r_fullscreen_gamma 2.2/2.3
+- r_fullscreen_gamma 2.2
+- digital vibrance around 60/80
